@@ -1,0 +1,25 @@
+phase 1:
+
+interview: learn all methods of lifecycle and what is virtual dom
+build a very basic website with header (component), side bar (component), navigation bar (component), and body (component)
+	* navigation bar buttons(calculators: class component, functional component, railway ticket generator, expense tracker)
+build a calculator using class component (hint: javascript eval())
+build a calculator using functional component (hint: javascript eval())
+	* if using eval, calculator should not take every string input because eval is prone to hacking
+
+phase 2:
+
+interview: learn lifecycle deeper: see interview-qeustions.txt
+interview: learn basic about redux
+read api and convert calculator into api based
+traverse json
+in that calculator, make the input box and buttons as saperate components (sending data from one component to other)
+make component to take username and password. send the username password to another component for hardcoded credentials checking
+convert the hardcoded credentials into api based credentials check
+
+phase 3:
+
+store auth token
+skippable: integrate firebase
+setup redux
+interview: learn about upper level components in redux

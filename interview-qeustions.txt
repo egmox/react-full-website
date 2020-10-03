@@ -1,0 +1,44 @@
+life cycle of redux
+what are arguments in promise
+what are components of redux
+upper level components in redux
+react props
+
+
+
+es6
+state and props
+life cycle: 
+component: function component, class component
+how virtual dom works
+redux: 
+hooks: action creator, useState, use effect, use ref, use reducer
+middleware
+context api
+
+
+life cycle:
+1. mounting:
+	initialization: this.fetchState to bind object
+	component will mount
+	
+2. updating
+3. catch error
+4. unmounting
+
+
+
+mounting:
+render : jsc ek syntax hai jo render me likha. html or javascript likh sakte hain.
+componentDidMount: memory free karta hai
+
+updation:
+	props:
+		componentWill fetchState
+		shouldComponentUpdate: jo render method chalega, wo iske uper depend karega. agar props or state same hai to 
+	
+	virtual dom: (kaam kaise karta hai): koi bhi action chalaya load karne ke liye, virtual dom create kar leta hai.
+	agar virtual dom me kuch update nahi hai to wo aise hi react kara dega or kuch update nahi hoga.
+	agar array me 10 me se sirf ek hi naya hoga, to sirf ek hi ko update karega, pure ko nahi
+	
+agar parent se child data send karna hai to props se kar sakte hain
